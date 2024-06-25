@@ -8,12 +8,12 @@ const Header = () => {
     <div className='flex px-10 py-6 justify-between items-center w-full'>
         {/* logo */}
         <div className='w-[100px] h-[60px] bg-[#e7e7e7] flex justify-center items-center'>
-            <p className='font-medium text-xl'>Logo</p>
+            <p className='font-medium text-xl text-[#DC4A2D]'>Logo</p>
         </div>
         {/* navigation */}
         <div className='flex w-[534px] p-2 h-[74px] rounded-[36px] border justify-between items-center'>
             {/* job */}
-            <div className='flex gap-x-2 bg-orange-700 p-4 rounded-[49px]'>
+            <div className='flex gap-x-2 bg-[#DC4A2D] p-4 rounded-[49px]'>
                 <Briefcase color='white' size={24}/>
                 <p className='text-white font-medium text-xl'>Jobs</p>
             </div>
