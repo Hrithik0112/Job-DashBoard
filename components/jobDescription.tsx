@@ -2,8 +2,8 @@ import React from 'react'
 
 const JobDescription = () => {
   return (
-    <div className='py-8 border-t border-[#e7e7e7] text-base font-medium align-baseline '>
-        <p className='text-sm font-normal'>About Job</p>
+    <div className='py-8 pl-[100px] border-t border-[#e7e7e7] text-base font-medium align-baseline '>
+        <p className='text-sm font-medium mb-2'>About the Job</p>
         
 
         <ol className='list-decimal pl-5'>

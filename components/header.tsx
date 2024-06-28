@@ -18,19 +18,24 @@ const Header = () => {
                 <p className='text-white font-medium text-xl'>Jobs</p>
             </div>
             {/* messeges */}
-            <div className='flex gap-x-2'>
-            <MessageSquare size={24} />
-                <p className='font-medium text-xl'>Messeges</p>
+            <div className='flex gap-x-2 relative'>
+            <MessageSquare size={24} color='#B0B0B0' />
+                <p className='font-medium text-xl text-[#B0B0B0]'>Messeges</p>
+                <div className='absolute h-1.5 w-1.5 rounded-full bg-[#DC4A2D] left-5'></div>
             </div>
             {/* payment */}
             <div className='flex gap-x-2 pr-4'>
-                <HandCoins size={24}/>
-                <p className='font-medium text-xl'>Payments</p>
+                <HandCoins size={24} color='#B0B0B0'/>
+                <p className='font-medium text-xl text-[#B0B0B0]'>Payments</p>
             </div>
         </div>
         {/* dropdown */}
         <div className='flex px-[10px] py-[14px] h-[60px] items-center gap-x-4 w-[134px]'>
+            <div className='relative'>
+
         <Bell size={32}/>
+        <div className='absolute h-1.5 w-1.5 rounded-full bg-[#DC4A2D] left-5 top-0'></div>
+            </div>
         <div className='flex items-center gap-x-1.5' >
 
         <Image src={CompanyLogo} alt='company logo' width={40} height={40} />

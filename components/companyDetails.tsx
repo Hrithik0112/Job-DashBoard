@@ -4,7 +4,7 @@ import companyLogo from "../public/compnay-Logo.png"
 
 const CompanyDetails = () => {
   return (
-    <div className='py-8 flex flex-col gap-y-4 border-t border-[#e7e7e7]'>
+    <div className='py-8 pl-[100px] flex flex-col gap-y-4 border-t border-[#e7e7e7]'>
         {/* compnay name and logo */}
         <div className='py-2.5 pr-2.5'>
             <div className='flex gap-x-4'>

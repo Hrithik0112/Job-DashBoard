@@ -11,12 +11,12 @@ const Controls = () => {
             {/* button one */}
             <div className='flex justify-center items-center px-6 py-3 gap-x-2.5 bg-orange-50 rounded-lg border border-[#DC4A2D]'>
             <Trash2 size={20} color='#DC4A2D' />
-            <p className='text-[#DC4A2D]'>Delete Job</p>
+            <p className='text-[#DC4A2D] font-medium'>Delete Job</p>
             </div>
             {/* button 2 */}
             <div className='flex justify-center items-center px-6 py-3 gap-x-2.5  bg-[#DC4A2D] rounded-lg'>
             <Pencil  size={20} color='white' />
-            <p className='text-white'>Edit Job</p>
+            <p className='text-white font-medium'>Edit Job</p>
             </div>
 
         </div>
@@ -26,9 +26,9 @@ const Controls = () => {
             <div className='flex justify-between items-center'>
                 <div className='flex p-2.5 gap-x-2.5'>
                 <LuUsers size={20} />
-                <p>Applicants</p>
+                <p className='font-medium text-base'>Applicants</p>
                 </div>
-                <p>400</p>
+                <p className='font-semibold text-xl'>400</p>
 
             </div>
             {/* line  */}
@@ -38,9 +38,9 @@ const Controls = () => {
                 <div className='flex p-2.5 gap-x-2.5'>
                 <TbUserCheck size={20} />
 
-                <p>Matches</p>
+                <p className='font-medium text-base'>Matches</p>
                 </div>
-                <p>100</p>
+                <p className='font-semibold text-xl'>100</p>
 
             </div>
             {/* line  */}
@@ -49,9 +49,9 @@ const Controls = () => {
             <div className='flex justify-between items-center'>
                 <div className='flex p-2.5 gap-x-2.5'>
                 <MessageSquare size={20} />
-                <p>Messages</p>
+                <p className='font-medium text-base'>Messages</p>
                 </div>
-                <p>147</p>
+                <p className='font-semibold text-xl'>147</p>
 
             </div>
             {/* line  */}
@@ -60,9 +60,9 @@ const Controls = () => {
             <div className='flex justify-between items-center'>
                 <div className='flex p-2.5 gap-x-2.5'>
                 <Eye size={20} />
-                <p>Views</p>
+                <p className='font-medium text-base'>Views</p>
                 </div>
-                <p>800</p>
+                <p className='font-semibold text-xl'>800</p>
 
             </div>
         </div>
