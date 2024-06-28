@@ -9,7 +9,7 @@ const JobDetails = () => {
   return (
     <div className='w-full min-h-screen flex'>
       {/* left side 65% */}
-      <div className='w-[75%]  pt-9'>
+      <div className='w-[75%]'>
       <JobShortDetails/>
       <SkillsRequired/>
       <JobDescription/>
